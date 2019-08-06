@@ -1,0 +1,4 @@
+- hosts: sitcon-camp
+  tasks:
+          - name: run vlc
+            shell: nohup cvlc --x11-display :0 "rtmp://192.168.3.122/live/livestream" &

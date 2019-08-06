@@ -4,6 +4,7 @@
 # ./auto_deploy.sh(self)
 # ./hosts_back
 # ./split_ip.py
+# ./vlc.yml
 
 # Find avaliable ip address
 echo "\n=== Find avaliable ip address ===\n"
