@@ -3,6 +3,7 @@
 # File requirement
 # ./auto_deploy.sh(self)
 # ./hosts_back
+# ./split_ip.py
 
 # Find avaliable ip address
 echo "\n=== Find avaliable ip address ===\n"
