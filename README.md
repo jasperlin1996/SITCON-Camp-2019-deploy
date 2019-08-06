@@ -11,5 +11,7 @@ ansible-playbook vlc.yml
 ```
 
 * Killall vlc
+```
 ansible sitcon-camp -a "killall vlc"
+```
 
