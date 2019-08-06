@@ -1,0 +1,8 @@
+[sitcon-camp]
+192.168.3.[0:255]
+
+[all:vars]
+ansible_connection=ssh
+ansible_ssh_user=sitcon2019
+ansible_ssh_pass=SITCON2019
+ansible_sudo_pass=SITCON2019
