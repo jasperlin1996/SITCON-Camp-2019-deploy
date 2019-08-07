@@ -8,8 +8,8 @@
 
 # Find avaliable ip address
 printf "\n=== Find avaliable ip address ===\n"
-printf "[defaults]\n \
-inventory = ./hosts_back\n \
+printf "[defaults]\n\
+inventory = ./hosts_back\n\
 host_key_checking = False\n" > ansible.cfg
 ansible sitcon-camp -m ping > ip.txt
 
@@ -21,7 +21,7 @@ python3 make_hosts.py
 
 # Auto deploy vlc client stream to rtmp://192.168.3.122/live/livestream
 printf "\n======= Deploy vlc client =======\n"
-printf "[defaults]\n \
-inventory = ./hosts\n \
+printf "[defaults]\n\
+inventory = ./hosts\n\
 host_key_checking = False\n" > ansible.cfg
 ansible-playbook vlc.yml
