@@ -12,7 +12,6 @@ printf "[defaults]\n \
 inventory = ./hosts_back\n \
 host_key_checking = False\n" > ansible.cfg
 ansible sitcon-camp -m ping > ip.txt
-rm ./hosts_back
 
 # Split different account (sitcon2019, SITCON2019)
 printf "\n==== Split different account ====\n"
